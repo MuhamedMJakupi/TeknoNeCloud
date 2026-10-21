@@ -21,12 +21,15 @@
   </br>
   <button type = "submit" onclick="ext()">=====</button>
     </br>
-    <button type = "submit" onclick="ext()">=====</button>
+    <button type = "submit" onclick="times()">=====</button>
+  </br>
+      <button type = "submit" onclick="divide()">=====</button>
   </br>
 
   <p id="result"></p>
     <p id="result2"></p>
       <p id="result3"></p>
+      <p id="result4"></p>
 
 
 
@@ -53,6 +56,13 @@
     var b=Number(document.getElementById("nr2").value);
     var c = a*b ;
     document.getElementById("result3").innerHTML=c;
+
+  }
+     function divide(){
+    var a=Number(document.getElementById("nr1").value);
+    var b=Number(document.getElementById("nr2").value);
+    var c = a/b ;
+    document.getElementById("result4").innerHTML=c;
 
   }
     
