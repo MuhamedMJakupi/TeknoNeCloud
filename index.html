@@ -9,6 +9,29 @@
   Java 1
 </h1>
   <p>Test</p>
+
+
+  <label>Numri i pare :</label>
+  <input type="number" id ="nr1">
+</br>
+    <label>Numri i dyte :</label>
+  <input type="number" id ="nr2">
+  </br>
+<button type = "submit" onclick="sub()"></button>
+  <p id="resut"></p>
+
+  <script>
+
+  function sub(){
+    var a=Number(document.getElementById("nr1").value);
+    var b=Number(document.getElementById("nr2").value);
+    var c = a+b ;
+    document.getElementById("resolved").innerHTML=c
+
+  }
+
+    
+  </script>
 </body>
   
 </html>
